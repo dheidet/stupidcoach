@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  # get 'coachings/ask'
+  get 'ask' => 'coachings#ask'
+
+  # get 'coachings/answer'
+  get 'answer' => 'coachings#answer'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
